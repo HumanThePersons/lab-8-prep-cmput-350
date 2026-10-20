@@ -55,7 +55,6 @@ private:
     // if mTexture is valid, recomputes the positions and coords of sf::Vertex for each
     // of 6 possible entries in mVertexArray.
     void recomputeVertexArray() const {
-        // Need to interpolate texture coordinates from mMinPoint to mMaxPoint over 0,1
         if (!mTexture) { return; }
 
         // Based on texture size, a point can be normalized by dividing by x and y respectively
