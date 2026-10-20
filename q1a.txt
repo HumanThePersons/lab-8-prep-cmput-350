@@ -1,3 +1,3 @@
-#### Question 1
+Question 1
 - If the positive x axis points right, and the positive y axis points down, then the given rotation matrix performs a clockwise rotation.
 - If the positive x axis points right, and the positive y axis points up, then the given rotation matrix performs a counterclockwise rotation, which is what we usually use as the positive direction for rotation.
